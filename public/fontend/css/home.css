@@ -1,0 +1,129 @@
+.parent_child:hover .child_menu{
+    display: block !important;
+}
+.child_menu{
+    position: absolute;
+    border: 1px solid #cecece;
+    border-radius: 10px;
+    background-color: #cecece;
+    width: 200px;
+    /* float: unset; */
+    /* */
+    left: -50px;
+    z-index: 1000;
+    line-height:32px;
+    display:none;
+}
+.child_menu>li{
+    background-color: #cecece;
+}
+.child_menu>li>a{
+    background-color: #cecece !important;
+    color: white !important;
+}
+
+.addsuccess{
+    border: 1px solid greenyellow;
+    bottom: 10px;
+    left: 10px;
+    position: fixed;
+    text-align: center;
+    padding: 12px;
+    border-radius: 20px;
+    background-color: greenyellow;
+    z-index: 1000;
+    display: none;
+}
+.addsuccess span{
+    padding: 10px;
+    width: 100%;
+    color: forestgreen;
+    font-size: 18px;
+}
+.addfalse span{
+    padding: 10px;
+    width: 100%;
+    color: red;
+    font-size: 18px;
+}
+.deletesucces{
+    display: none;
+    top: 10px;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid greenyellow;
+    background: rgb(16, 196, 16);
+    position: fixed;
+    right: 10px;
+    border-radius: 10px;
+}
+.group_profile{
+    border: 1px solid #F5F5F5;
+    background-color: #F5F5F5;
+    padding: 20px;
+    box-shadow: 3px 3px #e0dcdc;
+    
+}
+.order_content_item{
+    display: inline-flex;
+}
+
+.order_control{
+    display: flex;
+    justify-content:space-between;
+}
+.order{
+  display: inline-flex;
+}
+
+.order{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.order_status{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+.detail p{
+    text-transform: uppercase;
+    color: black;
+    font-size: 16px;
+}
+.staus p{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: red;
+}
+.group_product{
+    display: flex;
+}
+.image img{
+    width: 100px;
+}
+.group_total{
+    float: right;
+}
+.group_total p{
+    color: #f59212;
+    font-size: 20px;
+}
+.speach{
+    clear: both;
+}
+.group_handling{
+    float: right;
+}
+.order_group_container{
+    border: 1px solid;
+}
+.group_button button{
+    width: 150px;
+    border-radius: 5px;
+}
+.cleafix{
+    clear: both;
+}
